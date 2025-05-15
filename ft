@@ -4,10 +4,26 @@ php -S localhost:8000 -t public
 http://localhost:8000/auth/debug.php
 
 
+php -S 0.0.0.0:8000
+
+
 ssh -i ~/.ssh/eitwell_key azureuser@4.235.121.3
 
 
 http://4.235.121.3:8000
 
 
+git clone https://github.com/eitofujita/assignment8-webapp.git
+
+
 cd assignment8-webapp/public
+
+rm -rf assignment8-webapp
+git clone https://github.com/eitofujita/assignment8-webapp.git
+
+
+
+admin pass 
+letmein
+
+git pull origin main

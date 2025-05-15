@@ -11,7 +11,7 @@
 
   <!-- ヘッダー：動画背景 + メニュー -->
   <header>
-    <video autoplay muted loop id="bg-video">
+    <video autoplay muted loop playsinline id="bg-video">
       <source src="/video/kadaino.mp4" type="video/mp4" />
       Your browser does not support HTML5 video.
     </video>

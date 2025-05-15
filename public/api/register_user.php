@@ -31,3 +31,15 @@ echo json_encode([
     'password' => $password,
     'profile_url' => $profileUrl
 ]);
+
+file_put_contents(
+  __DIR__ . '/../../users.log',
+  json_encode([
+    'login' => $login,
+    'password' => $password,
+    'name' => $data['name'],
+    'email' => $data['email'],
+    'created' => date('c')
+  ]) . PHP_EOL,
+  FILE_APPEND
+);

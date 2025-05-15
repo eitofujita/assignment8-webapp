@@ -56,6 +56,11 @@
     <?php endif; ?>
   </main>
 
+<footer style="text-align:center; margin-top: 2rem;">
+  <p><a href="/admin.php" target="_blank">admin page</a></p>
+</footer>
   <script src="/js/form_submit.js"></script>
+
+  
 </body>
 </html>

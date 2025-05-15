@@ -8,3 +8,6 @@ ssh -i ~/.ssh/eitwell_key azureuser@4.235.121.3
 
 
 http://4.235.121.3:8000
+
+
+cd assignment8-webapp/public

@@ -27,7 +27,7 @@ if (file_exists($logFile)) {
 <head>
   <meta charset="UTF-8">
   <title>Admin - User List</title>
-  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
   <h1>Registered Users</h1>
